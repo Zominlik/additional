@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <ul class="dropdown">
+    <li id="dropdown-label" class="dropdown__label">
+      Label
+    </li>
+
+    <li
+      role="button"
+      aria-labelledby="dropdown-label"
+      id="dropdown__selected"
+      tabindex="0"
+    >
+      Option 1
+    </li>
+
+    <svg
+      class="dropdown__arrow"
+      width="10"
+      height="5"
+      viewBox="0 0 10 5"
+      fill-rule="evenodd"
+    >
+      <title>Open drop down</title>
+      <path d="M10 0L5 5 0 0z"></path>
+    </svg>
+    <li aria-expanded="false" role="list" class="dropdown__list-container">
+      <ul class="dropdown__list">
+        <li class="dropdown__list-item" tabindex="0" id="option-1">
+          Option 1
+        </li>
+        <li class="dropdown__list-item2" tabindex="0" id="option-2">
+          Option 2 is really longgggggggggggggggg
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+
+
+    
+
+    <!-- <select name="" id="">
+        <option value="">adsfbghjmkl</option>
+        <option value="">adsfbghjmkl</option>
+        <option value="">adsfbghjmkl</option>
+    </select> -->
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
